@@ -4,7 +4,4 @@ var v = new Vue({
     el: "#app",
     render: function (h) { return h(AppComponent); }
 });
-if (module.hot) {
-    module.hot.accept();
-}
 //# sourceMappingURL=main.js.map

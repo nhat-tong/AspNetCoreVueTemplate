@@ -15,7 +15,9 @@
     "vue": "^2.5.2",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^6.0.0",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.1.1"
   },
   "devDependencies": {
     "css-loader": "^0.28.1",
@@ -25,6 +27,9 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^2.5.0",
     "aspnet-webpack": "^2.0.1",
-    "webpack-hot-middleware": "^2.12.2"
+    "webpack-hot-middleware": "^2.12.2",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "url-loader": "^0.5.7",
+    "file-loader": "^0.9.0"
   }
 }

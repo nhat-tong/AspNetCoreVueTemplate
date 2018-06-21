@@ -5,9 +5,3 @@ let v = new Vue({
     el: "#app",
     render: h => h(AppComponent)
 });
-
-// Enables Hot Module Replacement.
-declare var module: any;
-if (module.hot) {
-    module.hot.accept();
-}
