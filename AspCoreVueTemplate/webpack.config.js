@@ -4,11 +4,13 @@ var webpack = require('webpack');
 const bundleOutputDir = './wwwroot/dist';
 
 module.exports = {
-  entry: './ClientApp/main.ts',
+  entry: {
+    app: './ClientApp/main.ts'
+  },
   output: {
     path: path.resolve(__dirname, bundleOutputDir),
     publicPath: '/dist/',
-    filename: 'build.js'
+    filename: '[name].js'
   },
   module: {
     rules: [
